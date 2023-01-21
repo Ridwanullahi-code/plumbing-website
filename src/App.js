@@ -8,7 +8,7 @@ import Message from './pages/Message'
 
 function App() {
   return (
-    <div className="box-sizing:border-box">
+    <div className="box-sizing:border-box bg-gray-100">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/prediction" element={<Prediction />} />

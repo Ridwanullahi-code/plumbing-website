@@ -5,14 +5,28 @@ module.exports = {
     "./src/components/**/*.{js,jsx}",
   ],
   theme: {
-    extends: {
+    screens: {
+      xsm: '320px',
+      sm: '480px',
+      md: '768px',
+      lg: '976px',
+      xl: '1440px'
+    },
+    fontSize: {
+      xsm:'11px'
+    },
+    extend: {
       colors: {
-        red: '#AC4708',
+        paleBlue:'#0F2B5B',
+        deepBlue: '#00183E',
         Blue: '#0F3354',
         deepRed: "#801812",
         purple: '#5B1A66'
       }
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/aspect-ratio'),
+    require('@tailwindcss/line-clamp')
+    ],
 };
