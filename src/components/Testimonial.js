@@ -8,9 +8,9 @@ const Testimonial = ({image, alt, message, name, prof}) => {
     <img className="rounded-full w-16 h-16 border-2 border-white" src={image} alt={alt} />
       <div className="py-4 lg:text-center lg:px-4">
         <blockquote className="text-gray-700">
-          <i className="fa-solid fa-quote-left mx-1" />
+          <i className="fa-solid fa-quote-left mx-1 text-center" />
             <span className="text-xsm line-clamp-6">{message}</span>
-          <i className="fa-solid fa-quote-right mx-1" />
+          <i className="fa-solid fa-quote-right mx-1 text-center" />
         </blockquote>
        
     </div>

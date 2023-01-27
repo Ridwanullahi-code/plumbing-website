@@ -20,7 +20,7 @@ const Home = () => {
       <div className="bg-white shadow md:mx-5 rounded-md py-8 my-5" id="service">
         <h2 className="text-blue-500 font-bold text-4xl text-center">Plumbing Repairing Service</h2>
         <p className="text-gray-500 max-w-lg mx-auto text-center py-2" style={{ fontSize: '14px' }}>
-          If you need any help with your plumbing, give us a call at abass Plumbing. We offer variety of
+          If you need any help with your plumbing, give us a call at kasbass Plumbing. We offer variety of
           plumbing services in kasbass enterprises
         </p>
         <div className="mx-auto max-w-2xl py-10 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
