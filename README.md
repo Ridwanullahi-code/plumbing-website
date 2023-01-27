@@ -58,7 +58,7 @@ Give a ⭐️ if you like this project!
 ## **Authors**
 
 - Github: [Ridwan](https://github.com/Ridwanullahi-code)
-- LinkedIn: [Ridwan](https://www.linkedin.com/in/ajayi-ridwan-2a1515199/)
+- LinkedIn: [Ridwan](https://www.linkedin.com/in/ajayi-ridwan/)
 
 ## 🚀 **About Me**
 
