@@ -1,5 +1,10 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
+import work1 from '../logo/work1.jpeg'
+import work2 from '../logo/work2.jpeg'
+import work3 from '../logo/work3.jpeg'
+import work4 from '../logo/work4.jpeg'
+import work5 from '../logo/work5.jpeg'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Banner = () => {
@@ -17,7 +22,7 @@ const Banner = () => {
           <img
            className="h-[400px]"
             loading="lazy"
-            src="https://m.media-amazon.com/images/I/61W-QJozfgL._SX3000_.jpg"
+            src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
             alt="new year sales"
           />
           <span className="absolute top-0 left-0 right-0 bottom-0 overlay">
@@ -27,7 +32,7 @@ const Banner = () => {
           <img
             className="h-[400px]"
             loading="lazy"
-            src="https://m.media-amazon.com/images/I/71tIrZqybrL._SX3000_.jpg"
+            src="https://images.unsplash.com/photo-1552143233-c29bb1292978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
             alt="furniture"
           />
           <span className="absolute top-0 left-0 right-0 bottom-0 overlay">
@@ -36,8 +41,8 @@ const Banner = () => {
         <div className="relative">
           <img
             className="h-[400px]"
-            src="https://m.media-amazon.com/images/I/61DUO0NqyyL._SX3000_.jpg"
-            alt="enjoy your life"
+            src="https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="white metal pipe on brown brick wall"
           />
           <span className="absolute top-0 left-0 right-0 bottom-0 overlay">
           </span>
@@ -45,8 +50,8 @@ const Banner = () => {
         <div className="relative">
           <img
             className="h-[400px]"
-            src="https://m.media-amazon.com/images/I/71qid7QFWJL._SX3000_.jpg"
-            alt="beauty selection"
+            src="https://images.unsplash.com/photo-1593424469977-77a35fed63c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="Classic brass shower valve on a tiled wall in a victorian style bathroom"
           />
           <span className="absolute top-0 left-0 right-0 bottom-0 overlay">
           </span>
@@ -54,8 +59,8 @@ const Banner = () => {
         <div className="relative">
           <img
             className="h-[400px]"
-            src="https://m.media-amazon.com/images/I/61TD5JLGhIL._SX3000_.jpg"
-            alt="computer accessories"
+            src="https://plus.unsplash.com/premium_photo-1661962372055-1ef334c33f7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            alt="steel pipelines on a raw milk factory"
           />
           <span className="absolute top-0 left-0 right-0 bottom-0 overlay">
           </span>
@@ -63,8 +68,8 @@ const Banner = () => {
         <div className="relative">
           <img
             className="h-[400px]"
-            src="https://m.media-amazon.com/images/I/61jovjd+f9L._SX3000_.jpg"
-            alt="shop toys and games"
+            src="https://images.unsplash.com/photo-1518618750560-8f07abde4e4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80"
+            alt="four white ceramic urinal sink"
           />
           <span className="absolute top-0 left-0 right-0 bottom-0 overlay">
           </span>

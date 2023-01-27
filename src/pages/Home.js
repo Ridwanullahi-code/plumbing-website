@@ -6,7 +6,7 @@ import Testimonial from "../components/Testimonial";
 import { service } from '../functions/pictures'
 import { feedback } from '../functions/customerFeedback'
 import Card from '../components/Card';
-import Project from '../components/Project';
+import Projects from '../components/Projects';
 import Choose from '../components/Choose';
 
 
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
       <div className="my-8 justify-center items-center bg-white shadow pt-10 pb-5 md:mx-5 rounded-md">
-          <Project />
+        <Projects />
       </div>
       <div>
         <Choose />

@@ -5,6 +5,8 @@ import Prediction from './pages/Prediction'
 import Result from './pages/Result'
 import About from './pages/About'
 import Message from './pages/Message'
+import Faqs from './pages/Faqs'
+import Appointment from './pages/Appointment'
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/result" element={<Result />} />
         <Route path="/about" element={<About />} />
         <Route path="/message" element={<Message />} />
+        <Route path="/faqs" element={<Faqs />} />
+        <Route path="/appointment" element={<Appointment />} />
       </Routes>
     </div>
   );

@@ -1,24 +1,40 @@
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const About = () => {
-    return (
-        <>
-            <Navbar />
-            <div className="bg-gray-100 h-full flex flex-col px-10 md:px-40  py-40 space-y-6">
-            <h1 className="font-bold text-2xl text-center">About us</h1>
-            <p>Number49s.co.uk was founded as a way to find 49 bettors the best possible
-                value. We specialize in hot picks, hot and cold numbers, bookmaker odds and offers.
-                We cover both UK and South Africa
-            </p>
-            <p>Number49s.co.uk only provides information about online lotto operators that are fully
-                licensed and regulated. Keep Gambling Fun!
-            </p>
-            </div>
-            <Footer />
-        </>
-        
-    )
-}
+  return (
+    <>
+      <Navbar />
+      <div
+        className="bg-gray-100 h-full flex flex-col px-10 md:px-40 
+            py-40 space-y-6"
+      >
+        <div>
+          <h1 className="font-bold text-[24px] text-center">Our Mission</h1>
+          <p>
+            kasbass mission is to provide high-quality, reliable, and
+            cost-effective services to customers in their repair and
+            installation needs. Our mission is to be a leader in the industry,
+            setting the standard for safety, innovation, customer service, and
+            quality, and creating a positive work environment for our employees
+            and partners. We strive to be a reliable and responsible partner to
+            our customers, helping them meet their needs through cutting-edge
+            technology, quality workmanship, and cost-efficiency.
+          </p>
+        </div>
+        <div>
+          <h1 className="font-bold text-[24px] text-center">Our Story</h1>
+          <p>
+            Kasbass was founded in 2016 with the goal of becoming the premier
+            provider of plumbing services in the area. The company strives to
+            provide honest and professional service while delivering quality
+            craftsmanship, reasonable prices, and superior customer service.
+          </p>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
+};
 
 export default About;

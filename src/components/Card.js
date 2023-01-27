@@ -1,8 +1,12 @@
+import React from 'react'
 import PropTypes from "prop-types";
+
 const Card = ({ image, alt, skill, summary }) => {
   return (
-    <div className="md:max-w-md md:max-w-sm rounded-sm overflow-hidden 
-    shadow-lg bg-gray-200 md:h-[430px] text-deepBlue">
+    <div>
+      <button className="md:max-w-md  rounded-sm overflow-hidden 
+    shadow-lg bg-gray-200 md:h-[430px] text-deepBlue"
+    >
       <img
         className="w-full"  
         src={image}
@@ -11,9 +15,10 @@ const Card = ({ image, alt, skill, summary }) => {
       <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">{skill}</div>
             <p className="text-gray-700 text-base text-[13px]">
-                {summary}
+              {summary}
             </p>
       </div>
+    </button>
     </div>
   );
 };
