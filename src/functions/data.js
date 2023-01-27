@@ -9,24 +9,13 @@ export const data = {
     rows: [
         {
             title: "Tell me about kasbass enterprises?",
-            content: `Most of the day I watch YouTube tutorials to improve my skills
-            and to add knowledge. I am also building small projects for the start up
-            companies in my local area to keep increase progress of their products.
-            I always attend Google Developer Students Camp class to level
-            up my communication and connection
-            `,
-        },
-        {
-            title: "What made you apply for this job?",
-            content: `I don't usually apply to projects that don't fit my skills
-            and personality so the reason why I apply for this job are:
-            <ul>
-                <li>1. Because I think I have the skills to make this project successful</li>
-                <li>2. I want to work with a client who values teamwork and values individual
-                    contributions
-                </li>
-            </ul>
-            `,
+            content: `Kasbass mission is to provide the highest quality
+            plumbing services to our customers. We specialize in installation, repair,
+            and maintenance of all types of plumbing systems, as well as hot water heater
+            services, sewer line repairs, and drain cleaning. Our team strives to deliver
+            prompt, reliable, and quality service on every job. We guarantee quality workmanship and are
+            committed to providing excellent customer satisfaction.`
+            ,
         },
         
         {
@@ -61,16 +50,7 @@ export const data = {
             making repairs and installations, ensuring system safety and efficiency, and providing preventive maintenance. I would also strive to ensure compliance with relevant regulations and standards
             `,
         },
-        {
-            title: "How much do you charge?",
-            content: <p>current version is 1.2.1</p>,
-        },
-        {
-            title: "What is your availability?",
-            content: `My school hours are  8am to 4pm. Monday to Friday except
-            only wednesday I didn't use to go school. My availability for work is after 4:30pm from
-            Monday to Friday, and anytime on weekends`,
-        },
+        
         {
             title: "What type of projects do you usually work on?",
             content: `We usually work on projects related to water management and plumbing systems.
@@ -83,16 +63,6 @@ export const data = {
             content: `The best way to message us is through email. You can also contact us
             via social media or by phone. You can find us contact information our website
             `,
-        },
-        {  
-            title: "How long have you been in industry?",
-            content: `
-            I have work on several projects and also did an internship 
-            `,
-        },
-        {
-            title: "What tools do you use?",
-            content: 'I normally used Vs code as a code editor, Netlify to deploy the project',
         },
     ],
 };
