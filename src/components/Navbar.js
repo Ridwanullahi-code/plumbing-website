@@ -11,7 +11,7 @@ const Navbar = () => {
     <header>
       <div className="flex">
         <div className="bg-blue-500 w-1/3 p-3 flex items-center px-5">
-          <span className="text-white font-bold">Kasbass Nigeria Enterprises</span>
+          <span className="text-white font-bold text-[13px] md:text-[18px] company">Kasbass Nigeria Enterprises</span>
         </div>
         <div className="bg-paleBlue w-2/3 p-3 flex justify-end items-center md:pr-20">
           <div className='flex space-x-3'>
@@ -60,9 +60,10 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <nav className="flex justify-center md:justify-between md:container items-center  bg-paleBlue
-       text-white mx-auto text-sm md:text-md font-bold xsm:text-xsm">
-        <ul className="flex xsm:space-x-2 space-x-7 md:space-x-10  md:mx-3 py-6">
+      <nav className="flex justify-center md:justify-between md:container items-center
+        bg-paleBlue px-3  md:pr-0
+       text-white mx-auto text-[12px] md:text-[15px] font-bold">
+        <ul className="flex space-x-4 md:space-x-10  md:mx-3 py-6">
         <NavLink className="link" to="/">HOME</NavLink>
         <li><NavLink className="link" to="/about">ABOUT US</NavLink></li>
         <li><NavLink className="link" to="/result">SERVICES</NavLink></li>

@@ -6,6 +6,9 @@
     font-weight: 500;
     font-family: "Inter", sans-serif;
 }
+.company{
+    font-style: italic;
+}
 .circle {
     border-radius: 50%;
     border: 1px solid transparent;

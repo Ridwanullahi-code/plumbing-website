@@ -6,14 +6,16 @@ export const feedback = [
   {
     image: img1,
     alt: "customer one",
-    message:'Abass was fantastic!!..polite, efficient, neat and extremely profession plus he’s a nice guy to boot!. He did an excellent job for us and we are very happy with our new drain system..Thanks to Joe and all the folks at Meticulous!"',
+    message:'Kasbass was fantastic!!..polite, efficient, neat and extremely profession plus he’s a nice guy to boot!. He did an excellent job for us and we are very happy with our new drain system..Thanks to Joe and all the folks at Meticulous!"',
     name: "Nat Reynolds",
     prof: "Chief Accountant",
     },
     {
         image: img2,
         alt: 'Celia Micheal',
-        message: "I appreciated getting a call to get the work done earlier than my scheduled appointment. Abass was great. He was able to fix the problem, but also explained what he  was doing, what options were available, and costs for different fixes if the problem recurred.",
+        message: `Kasbass is the best plumbing company I’ve ever worked with.
+        Their technicians are knowledgeable, professional, and reliable. We were extremely pleased with the results
+        and would highly recommend them to anyone in need of plumbing services.`,
         name: 'Celia Micheal',
         prof:'Secretary'
     },
