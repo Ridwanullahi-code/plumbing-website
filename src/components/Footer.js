@@ -17,16 +17,16 @@ const Footer = () => {
     <section className='bg-deepBlue flex flex-col pt-4 pb-3 md:pb-0'>
       <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-around items-center py-4'>
         <div className='flex flex-col space-y-1 items-center  text-white font-bold'>
-          <h2 className='font-bold text-white'>Kasbass Nigeria Limited</h2>
+          <h2 className='font-bold text-white'>Kasbass Nigeria Enterprises</h2>
           <address className='flex items-center justify-center'>
             <div className='flex flex-col items-center space-y-1 grey'>
               <span className='text-sm flex items-center'>
                 <MapIcon className='text-blue-500 h-4 w-4 mx-1' />
-                Osun Nigeria
+                Lagos Nigeria
                 </span>
                 <span className='text-sm flex items-center'>
                   <MapPinIcon className='text-blue-500 h-4 w-4 mx-1' />
-                  5363 Road Avenue
+                  18 Aborishade Road, Lawanson
                 </span>
                 <span className='text-sm flex items-center'>
                   <PhoneIcon className='text-blue-500 h-4 w-4 mx-1'/>

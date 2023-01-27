@@ -25,7 +25,7 @@ const About = () => {
         <div>
           <h1 className="font-bold text-[24px] text-center">Our Story</h1>
           <p>
-            Kasbass was founded in 2016 with the goal of becoming the premier
+            Kasbass was founded in 2019 with the goal of becoming the premier
             provider of plumbing services in the area. The company strives to
             provide honest and professional service while delivering quality
             craftsmanship, reasonable prices, and superior customer service.

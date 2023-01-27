@@ -5,12 +5,13 @@ import facebook from '../logo/facebook.jpg'
 import twitter from '../logo/twitter.png'
 import google from '../logo/google.jpg'
 import linkedin from '../logo/linkedin.png'
+
 const Navbar = () => {
   return (
     <header>
       <div className="flex">
         <div className="bg-blue-500 w-1/3 p-3 flex items-center px-5">
-          <span className="text-white font-bold">Kasbass Nigeria Limited</span>
+          <span className="text-white font-bold">Kasbass Nigeria Enterprises</span>
         </div>
         <div className="bg-paleBlue w-2/3 p-3 flex justify-end items-center md:pr-20">
           <div className='flex space-x-3'>
@@ -45,7 +46,7 @@ const Navbar = () => {
             </span>
             <div className="flex flex-col justify-center items-center">
               <p className="font-bold">Email us</p>
-              <a href="mailto:" className="text-sm grey">@gmail.com</a>
+              <a href="mailto:kasbassnigenterprises@gmail.com" className="text-sm grey">@gmail.com</a>
             </div>
           </div>
           <div className="flex space-x-3 items-center">
