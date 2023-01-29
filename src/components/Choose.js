@@ -31,7 +31,7 @@ const Choose = () => {
           </span>
         </div>
         <div className="flex space-x-2 items-center">
-          <i className="fa-solid fa-house" style={{ fontSize: "32px" }} />
+          <i className="fa-solid fa-faucet-drip"> style={{ fontSize: "32px" }} />
           <span>
             <p className="">Residential Plumbing Services</p>
             <p style={{ fontSize: "14px" }} className="text-zinc-300">
