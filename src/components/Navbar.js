@@ -67,7 +67,7 @@ const Navbar = () => {
         <NavLink className="link" to="/">HOME</NavLink>
         <li><NavLink className="link" to="/about">ABOUT US</NavLink></li>
         <li><NavLink className="link" to="/result">SERVICES</NavLink></li>
-        <li><NavLink className="link" to="/result">PROJECT</NavLink></li>
+        <li><NavLink className="link" to="/projects">PROJECTS</NavLink></li>
         <li><NavLink className="link" to="/message">BLOG</NavLink></li>  
         </ul>
         <NavLink to="/message" className="hidden md:block hover:opacity-90 
