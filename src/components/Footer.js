@@ -22,7 +22,7 @@ const Footer = () => {
             <div className='flex flex-col items-center space-y-1 grey'>
               <span className='text-sm flex items-center'>
                 <MapIcon className='text-blue-500 h-4 w-4 mx-1' />
-                Lagos Nigeria
+                Surulere Lagos, Nigeria
                 </span>
                 <span className='text-sm flex items-center'>
                   <MapPinIcon className='text-blue-500 h-4 w-4 mx-1' />
