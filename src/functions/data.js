@@ -4,6 +4,7 @@ import work3 from '../logo/work3.jpeg'
 import work4 from '../logo/work4.jpeg'
 import work7 from '../logo/work7.jpeg'
 import work8 from '../logo/work8.jpeg'
+import { Images } from './overview'
 
 export const data = {
     rows: [
@@ -73,37 +74,43 @@ export const data = {
 export const project = [
     {
         id: 1,
-        image: work1,
+        image: Images[0][0],
+        overview: Images[0],
         alt:'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
         title: 'Earthen Bottle'
     },
     {   
         id: 2,
-        image: work2,
+        image: Images[1][3],
+        overview: Images[1],
         alt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
         title: 'Nomad Tumbler'
     },
     {
         id: 3,
-        image: work3,
+        image: Images[2][2],
+        overview: Images[2],
         alt: 'Person using a pen to cross a task off a productivity paper card.',
         title: 'Focus Paper Refill'
     },
     {
         id: 4,
-        image: work4,
+        image: Images[3][0],
+        overview: Images[3],
         alt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
         title:' Machined Mechanical Pencil'
     },
     {
         id: 5,
-        image: work7,
+        image: Images[4][2],
+        overview: Images[4],
         alt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
         title: 'Machined Mechanical Pencil'
     },
     {
         id: 6,
-        image: work8,
+        image: Images[5][1],
+        overview: Images[5],
         alt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
         title: ' Machined Mechanical Pencil'
     }

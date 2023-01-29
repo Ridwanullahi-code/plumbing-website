@@ -1,18 +1,19 @@
-import React, { useState } from "react";
-import Modal from './Modal'
-import { project } from "../functions/data";
+import React from 'react';
+import { project } from '../functions/data';
+import { useNavigate } from "react-router";
 
-const Project = () => {
-  const [state, setState] = useState('');
-  const [modal, openModal] = useState(false);
- 
-  const handleSelect = (e) => {
-    setState(e.target.id);
-    openModal(!modal);
-  }
-  const clickProject = state && project.length > 0 ?
-    project.filter((d) => d.id === Number(state)) : [];
+const Projects = () => {
+  const navigate = useNavigate();
   
+  const handleClick = (obj) => {
+    navigate(`/project-overview/${obj.title}`, {
+      state: {
+        project: obj
+      }
+    }
+    );
+  }
+
   return (
       <div className="bg-white md:mx-5 rounded-md">
       <h2 className="text-blue-500 font-bold text-4xl text-center pt-5 pb-2">Recent works</h2>
@@ -26,20 +27,20 @@ const Project = () => {
           lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {project.map((data, index) => (
             <button className="group bg-white shadow rounded-md p-3"
-              onClick={handleSelect} key={index}>
-            <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden  bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
-              <img
-                src={data.image}
-                id={index + 1}  
-                alt={data.alt}
-                className="h-full w-full object-cover object-center group-hover:opacity-75"
-              />
+              onClick={() => handleClick(data)}
+              key={index}>
+              <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden  bg-gray-200 xl:aspect-w-7 xl:aspect-h-8">
+                <img
+                  src={data.image}
+                  id={index + 1}  
+                  alt={data.alt}
+                  className="h-full w-full object-cover object-center group-hover:opacity-75"
+                />
             </div>
             <h3 className="mt-4 text-sm text-gray-700 text-center font-bold">Earthen Bottle</h3>
             </button>
           ))}
         </div>
-          {modal && <Modal image={clickProject[0].image} />}
           </div>
           <div className="flex justify-center items-center max-w-xl mx-auto">
             <button className="border border-deepBlue font-bold text-white flex-grow p-4
@@ -49,4 +50,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;

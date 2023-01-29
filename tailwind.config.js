@@ -16,6 +16,9 @@ module.exports = {
       xsm:'11px'
     },
     extend: {
+      gridTemplateRows: {
+          '[auto,auto,1fr]': 'auto auto 1fr',
+        },
       colors: {
         paleBlue:'#0F2B5B',
         deepBlue: '#00183E',

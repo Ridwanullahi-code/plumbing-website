@@ -7,6 +7,7 @@ import About from './pages/About'
 import Message from './pages/Message'
 import Faqs from './pages/Faqs'
 import Appointment from './pages/Appointment'
+import Project from './components/Project'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/message" element={<Message />} />
         <Route path="/faqs" element={<Faqs />} />
         <Route path="/appointment" element={<Appointment />} />
+        <Route path="/project-overview/:title" element={<Project />} />
       </Routes>
     </div>
   );
