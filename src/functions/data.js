@@ -13,23 +13,24 @@ export const data = {
             plumbing services to our customers. We specialize in installation, repair,
             and maintenance of all types of plumbing systems, as well as hot water heater
             services, sewer line repairs, and drain cleaning. Our team strives to deliver
-            prompt, reliable, and quality service on every job. We guarantee quality workmanship and are
+            prompt, reliable, and quality service on every job. We guarantee quality
+            workmanship and are
             committed to providing excellent customer satisfaction.`
             ,
         },
         
         {
             title: "Why should we hire you?",
-            content: `More than the skills and the experience you should hire me for
+            content: `More than the skills and the experience you should hire us for
             three main reasons:
             <ul>
-                <li>1. I put my 100% on every project that I work on, I make sure that the outputs
-                    that I provide are not half baked and if possible I can deliver on or before the
+                <li>1. We put my 100% on every project that We work on, We make sure that the outputs
+                    that We provide are not half baked and if possible We can deliver on or before the
                     deadline with highest quality output
                 </li>
-                <li>2. I am proactive and I love sharing ideals to help business grow 
+                <li>2. We am proactive and We love sharing ideals to help business grow 
                 </li>
-                <li>3. I am result-oriented and I will provide you with relevant software applications
+                <li>3. We am result-oriented and We will provide you with relevant software applications
                 that will your decision making  and help you decide what's best for your business
                 </li>
             </ul>
@@ -40,14 +41,16 @@ export const data = {
             content: `We strive to improve our services continually, so feedback like this is invaluable.`,
         },
         {
-            title: "If I gave you a bunch tasks but you realized you can't meet the deadline. What would you do?",
-            content:`We will prioritize the tasks with the highest value or impact for your business and then ask you for additional hours or days to finish the remaining tasks because honestly there are times that we think we can finish a task on a certain time frame but due to unexpected challenges there might be some 
+            title: "If We gave you a bunch tasks but you realized you can't meet the deadline. What would you do?",
+            content:`We will prioritize the tasks with the highest value or impact for your business and then ask
+            you for additional hours or days to finish the remaining tasks because honestly there are times that we think we can finish a task on a certain time frame but due to unexpected challenges there might be some 
             delays`,
         },
         {
             title: "What is your work process?",
             content: `As a professional Plumbing company, our work process involves troubleshooting and diagnosing plumbing problems,
-            making repairs and installations, ensuring system safety and efficiency, and providing preventive maintenance. I would also strive to ensure compliance with relevant regulations and standards
+            making repairs and installations, ensuring system safety and efficiency, and providing preventive maintenance.
+            We would also strive to ensure compliance with relevant regulations and standards
             `,
         },
         
