@@ -2,13 +2,33 @@
 [Live Demo](https://react-plumbing-app.netlify.app/)
 
 ## **Description**
-**Plumbing Website Template** Is a Single Page App (SPA) A professional portfolio that is a collection of examples and evidence to showcase your experience, capability and potential for employment opportunities and professional development. Built with React, Tailwind CSS
+**Plumbing Services website** is a web-based platform that showcases the plumbing services offered by a plumbing company. The website is designed to provide users with information about the company's services, team, and contact details.
 
+**Features:**
+
+- Home page: A landing page that provides an overview of the company's services and highlights their unique selling points.
+- About Us: A page that provides information about the company's history, team, and values.
+- Services: A page that lists the plumbing services offered by the company and provides detailed information about each service.
+- Testimonials: A page that displays testimonials from satisfied customers to build trust and credibility.
+- Contact Us: A page that provides contact information, such as phone number, email address, and a contact form, for users to get in touch with the company.
+
+**Frontend Technology Stack:**
+
+- Setup project with [React](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/lessons/what_is_react.md)
+- JavaScript: To enhance user interactions and create dynamic effects.
+- [TailwindCSS](https://tailwindcss.com/docs/installation): To build the user interface and create a responsive design.
+- Bootstrap or Material-UI: To style the website and create a modern and professional look.
+- Use [Gitflow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/gitflow.md).
+- Google Maps API: To display the location of the company and enable users to get directions.
+
+**Project Deliverables:**
+
+- A functional and responsive website that meets the requirements specified in the project description.
+- Source code with proper documentation.
+- User manual and installation instructions.
 - Understand the using of [HTML & CSS best practices](https://github.com/microverseinc/curriculum-html-css/blob/main/articles/html_css_best_practices.md)
 - Use GitHub flow
-- Use [Gitflow](https://github.com/microverseinc/curriculum-transversal-skills/blob/main/git-github/gitflow.md).
-- Setup project with [React](https://github.com/microverseinc/curriculum-react-redux/blob/main/math-magicians/lessons/what_is_react.md)
-- Setup With [Tailwind CSS](https://tailwindcss.com/docs/installation)
+
 
 ## **Prerequisites:**
 - Basic Knowledge of HTML & CSS
