@@ -64,14 +64,14 @@ const Navbar = () => {
         bg-paleBlue px-3  md:pr-0
        text-white mx-auto text-[12px] md:text-[15px] font-bold">
         <ul className="flex space-x-4 md:space-x-10  md:mx-3 py-6">
-        <NavLink className="link" to="/">HOME</NavLink>
-        <li><NavLink className="link" to="/about">ABOUT US</NavLink></li>
-        <li><NavLink className="link" to="/result">SERVICES</NavLink></li>
-        <li><NavLink className="link" to="/projects">PROJECTS</NavLink></li>
-        <li><NavLink className="link" to="/message">BLOG</NavLink></li>  
+        <NavLink className="link font-bold" to="/">HOME</NavLink>
+        <li><NavLink className="link font-bold" to="/about">ABOUT US</NavLink></li>
+        <li><NavLink className="link font-bold" to="/result">SERVICES</NavLink></li>
+        <li><NavLink className="link font-bold " to="/projects">PROJECTS</NavLink></li>
+        <li><NavLink className="link font-bold" to="/message">BLOG</NavLink></li>  
         </ul>
         <NavLink to="/message" className="hidden md:block hover:opacity-90 
-        active:bg-blue-700 bg-blue-500 px-3 py-6">CONTACT US</NavLink>
+        active:bg-blue-700 bg-blue-500 px-3 py-6 font-bold">CONTACT US</NavLink>
       </nav>
     </header>
   )

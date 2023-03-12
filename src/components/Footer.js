@@ -15,11 +15,11 @@ import linkedin from '../logo/linkedin.png'
 const Footer = () => {
   return (
     <section className='bg-deepBlue flex flex-col pt-4 pb-3 md:pb-0'>
-      <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-around items-center py-4'>
-        <div className='flex flex-col space-y-1 items-center  text-white font-bold'>
+      <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-around items-baseline py-4'>
+        <div className='flex flex-col space-y-1 items-baseline  text-white font-bold'>
           <h2 className='font-bold text-white'>Kasbass Nigeria Enterprises</h2>
-          <address className='flex items-center justify-center'>
-            <div className='flex flex-col items-center space-y-1 grey'>
+          <address className='flex items-baseline justify-center'>
+            <div className='flex flex-col  space-y-1 grey'>
               <span className='text-sm flex items-center'>
                 <MapIcon className='text-blue-500 h-4 w-4 mx-1' />
                 Surulere Lagos, Nigeria
@@ -39,9 +39,9 @@ const Footer = () => {
             </div>
           </address>
         </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-baseline">
         <h2 className='font-bold text-white'>Useful Links</h2>
-        <div className='flex flex-col items-center grey'>
+        <div className='flex flex-col items-baseline grey px-2'>
           <NavLink className="link text-sm" to="/about">About Us</NavLink>
           <NavLink className="link text-sm" to="/message">Contact Us</NavLink>
           <NavLink className="link text-sm" to="/message">Services</NavLink>
@@ -58,9 +58,9 @@ const Footer = () => {
         </div>
       </form>
       </div>
-      <div className='flex flex-col items-center justify-center space-y-1 `
-      md:border-bottom-gray-200 py-2 connect'>
-        <h2 className='font-bold text-white'>Follow Us</h2>
+      <div className='flex items-center justify-between space-y-1
+      md:border-bottom-gray-200 p-3 connect px-6'>
+        <h2 className='font-bold text-white text-[20px]'>Follow Us</h2>
         <div className='flex space-x-3'>
           <a href="https://www.facebook.com/profile.php?id=100063464694068&mibextid=ZbWKwL"
             target="_blank" rel="noreferrer" >

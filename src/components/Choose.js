@@ -49,7 +49,6 @@ const Choose = () => {
           </span>
         </div>
       </div>
-      <div></div>
     </div>
   );
 };

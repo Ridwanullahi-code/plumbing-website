@@ -1,29 +1,34 @@
-import ResultCard from "../components/ResultCard"
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Input from '../components/Input';
-import { CalendarDaysIcon } from '@heroicons/react/24/solid'
+import Card from "../components/Card";
+import { service } from '../functions/pictures';
 
 const Result = () => {
     return (
         <section className="bg-gray-100">
             <Navbar />
-            <div className="flex-col-reverse md:flex-row items-center px-2 mx-auto my-10
-                space-y-0 md:space-y-0 md:px-30 lg:px-40 lx:px-40">
-                <div className="text-white bg-black flex justify-between items-center p-4 px-6 border-black h-15 shadow">
-                    <h2 className="font-bold">PREVIOUS RESULTS</h2>
-                    <CalendarDaysIcon className="h-8 w-8 text-white"/>
-                    
-                </div>
-                <div className="flex flex-col space-y-3">
-                    <ResultCard />
-                    <ResultCard />
-                    <ResultCard />
-                </div>
-                <Input />
+            <div className="bg-white shadow md:mx-5 rounded-md py-8 my-5" id="service">
+            <h2 className="text-blue-500 font-bold text-4xl text-center">Plumbing Repairing Service</h2>
+            <p className="text-gray-500 max-w-lg mx-auto text-center py-2" style={{ fontSize: '14px' }}>
+                If you need any help with your plumbing, give us a call at kasbass Plumbing. We offer variety of
+                plumbing services in kasbass enterprises
+            </p>
+            <div className="mx-auto max-w-2xl py-10 px-4 sm:py-10 sm:px-6 lg:max-w-7xl lg:px-8">
+                <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+                {service.map((data, index) => (
+                <Card
+                key={index}
+                image={data.image}
+                alt={data.alt}
+                skill={data.skill}
+                summary={data.summary}
+                />
+            ))}
             </div>
-            <Footer />
-        </section>
+            </div>
+        </div>
+        <Footer />
+    </section>
         
     )
 }

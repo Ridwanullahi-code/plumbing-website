@@ -17,7 +17,7 @@ const Projects = () => {
 
   return (
       <div className="bg-white md:mx-5 rounded-md py-8">
-      <h2 className="text-blue-500 font-bold text-4xl text-center pt-5 pb-2">Recent works</h2>
+      <h2 className="text-blue-500 font-bold text-[28px] text-center pt-5 pb-2">RECENT WORKS</h2>
       <p className="text-gray-500 max-w-lg mx-auto text-center py-1" style={{ fontSize: '14px' }}>
         Action speaker louder than word, check our successful completed projects to clear all the doubts.
         We are professional in this work
