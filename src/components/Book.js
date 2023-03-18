@@ -1,7 +1,7 @@
 const Book = () => {
 	return (
-		<div className="shadow-lg rounded-md my-10 bg-white flex flex-col md:flex-row justify-center gap-10 md:mx-5 px-5 md:p-10 py-10">
-			<div className="w-full md:w-2/3 flex flex-col gap-5 ">
+		<div className="shadow-lg rounded-md my-10 bg-white flex flex-col md:flex-row justify-center gap-10 md:mx-5 md:pl-10 pl-4">
+			<div className="w-full md:w-2/3 flex flex-col gap-5 my-5">
 				<div className="text-center md:text-left">
 					<h2 className="font-bold text-[25px] text-blue-500">BOOKING FORM</h2>
 					<p className="font-bold text-[20px]">Let Us Make Your Home Better</p>
@@ -30,7 +30,7 @@ const Book = () => {
 			  </form>
 			</div>
 			<div className="hidden md:flex">
-				<img src="https://images.unsplash.com/photo-1593424469977-77a35fed63c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
+				<img src="https://images.unsplash.com/photo-1552143233-c29bb1292978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="" />
 			</div>
 		</div>
 	)

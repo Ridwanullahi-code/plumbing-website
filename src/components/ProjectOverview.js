@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { useLocation } from 'react-router';
-import { StarIcon } from '@heroicons/react/20/solid'
-import { RadioGroup } from '@headlessui/react'
 import Navbar from './Navbar'
 import Footer from './Footer'
+import { AiFillCloseCircle } from 'react-icons/ai'
+import { NavLink } from 'react-router-dom';
 
 const product = {
   name: 'Basic Tee 6-Pack',
@@ -64,17 +64,20 @@ function classNames(...classes) {
 }
 
 export default function Example() {
-  const [selectedColor, setSelectedColor] = useState(product.colors[0])
-  const [selectedSize, setSelectedSize] = useState(product.sizes[2])
+  const [open, setOpen] = useState(false);
   const { state } = useLocation();
   const { project } = state;
-  console.log(project);
 
   return (
-    <>
+    <div>
       <Navbar />
-      <div className="bg-white">
-      <div className="pt-6">
+      <div className="bg-white relative">
+        <NavLink to="/">
+          <AiFillCloseCircle
+          className="text-blue-500 h-10 w-10 absolute right-3 top-3 cursor-pointer hover:text-blue-700 active:text-blue-900"
+        />
+        </NavLink>
+      <div className="pt-10">
           <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3
           lg:gap-x-8 lg:px-8">
           <div className="md:aspect-w-3 my-4 md:my-0 md:aspect-h-2 aspect-w-3 aspect-h-4 overflow-hidden rounded-lg lg:block">
@@ -179,8 +182,7 @@ export default function Example() {
       </div>
       </div>
     <Footer />
-  </>
+  </div>
     
   )
 }
-

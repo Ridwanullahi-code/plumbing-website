@@ -1,10 +1,5 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import work1 from '../logo/work1.jpeg'
-import work2 from '../logo/work2.jpeg'
-import work3 from '../logo/work3.jpeg'
-import work4 from '../logo/work4.jpeg'
-import work5 from '../logo/work5.jpeg'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Banner = () => {

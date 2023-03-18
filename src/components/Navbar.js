@@ -66,7 +66,7 @@ const Navbar = () => {
         <ul className="flex space-x-4 md:space-x-10  md:mx-3 py-6">
         <NavLink className="link font-bold" to="/">HOME</NavLink>
         <li><NavLink className="link font-bold" to="/about">ABOUT US</NavLink></li>
-        <li><NavLink className="link font-bold" to="/result">SERVICES</NavLink></li>
+        <li data-to-scrollspy-id="services" className="link font-bold"><NavLink  to="/result">SERVICES</NavLink></li>
         <li><NavLink className="link font-bold " to="/projects">PROJECTS</NavLink></li>
         <li><NavLink className="link font-bold" to="/message">BLOG</NavLink></li>  
         </ul>
