@@ -18,7 +18,7 @@ const Projects = () => {
   return (
       <div className="bg-white md:mx-5 rounded-md py-8">
       <h2 className="text-blue-500 font-bold text-[28px] text-center pt-5 pb-2">RECENT WORKS</h2>
-      <p className="text-gray-500 max-w-lg mx-auto text-center py-1" style={{ fontSize: '14px' }}>
+      <p className="text-gray-500 max-w-lg mx-auto text-center py-1" style={{ fontSize: '16px' }}>
         Action speaker louder than word, check our successful completed projects to clear all the doubts.
         We are professional in this work
         </p>
@@ -38,7 +38,7 @@ const Projects = () => {
                   className="h-full w-full object-cover object-center group-hover:opacity-75"
                 />
             </div>
-            <h3 className="mt-4 text-sm text-gray-700 text-center font-bold">Earthen Bottle</h3>
+              <h3 className="mt-4 text-sm text-gray-700 text-center font-bold">{data.title}</h3>
             </button>
           ))}
         </div>

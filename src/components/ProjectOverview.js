@@ -116,16 +116,15 @@ export default function Example() {
         {/* Pr info */}
         <div className="mx-auto max-w-2xl px-4 pt-10 pb-16 sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:px-8 lg:pt-16 lg:pb-24">
           <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8">
-            <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{product.name}</h1>
+            <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{project.title}</h1>
             </div>
             
           <div className="py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pt-6 lg:pb-16 lg:pr-8">
             {/* Description and details */}
             <div>
               <h3 className="sr-only">Description</h3>
-
               <div className="space-y-6">
-                <p className="text-base text-gray-900">{product.description}</p>
+                <p className="text-base text-gray-900">{project.description}</p>
               </div>
             </div>
 
@@ -134,7 +133,7 @@ export default function Example() {
 
               <div className="mt-4">
                 <ul role="list" className="list-disc space-y-2 pl-4 text-sm">
-                  {product.highlights.map((highlight) => (
+                  {project.highlights.map((highlight) => (
                     <li key={highlight} className="text-gray-400">
                       <span className="text-gray-600">{highlight}</span>
                     </li>
@@ -147,7 +146,7 @@ export default function Example() {
               <h2 className="text-sm font-medium text-gray-900">Details</h2>
 
               <div className="mt-4 space-y-6">
-                <p className="text-sm text-gray-600">{product.details}</p>
+                <p className="text-sm text-gray-600">{project.detail}</p>
               </div>
             </div>
             </div>
@@ -155,7 +154,6 @@ export default function Example() {
           <div className="mt-4 lg:row-span-3 lg:mt-0">
             <h2 className="sr-only">project information</h2>
             <p className="text-3xl tracking-tight text-gray-900">Duration: </p>
-
             {/* status */}
             <div className="mt-6">
               <h3 className="sr-only">Project Status</h3>
@@ -164,7 +162,7 @@ export default function Example() {
                   Work Status: 
                 </div>
                 <p className="ml-3 text-sm font-medium text-indigo-600">
-                  Completed
+                  {project.status}
                 </p>
               </div>
             </div>

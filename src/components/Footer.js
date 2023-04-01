@@ -15,7 +15,7 @@ import linkedin from '../logo/linkedin.png'
 const Footer = () => {
   return (
     <section className='bg-deepBlue flex flex-col pt-4 pb-3 md:pb-0'>
-      <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-around items-baseline py-4'>
+      <div className='flex flex-col space-y-4 md:space-y-0 md:flex-row justify-around md:items-baseline items-center py-4'>
         <div className='flex flex-col space-y-1 items-baseline  text-white font-bold'>
           <h2 className='font-bold text-white'>Kasbass Nigeria Enterprises</h2>
           <address className='flex items-baseline justify-center'>

@@ -41,19 +41,19 @@ const Navbar = () => {
         </div>
         <div className="flex md:space-x-20 space-x-5">
           <div className="flex space-x-3 items-center">
-             <span className="border border-blue-400 p-2">
+            <span className="border border-blue-400 p-2">
                 <EnvelopeIcon className="h-6 w-6 text-blue-400" />
             </span>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-baseline">
               <p className="font-bold">Email us</p>
-              <a href="mailto:kasbassnigenterprises@gmail.com" className="text-sm grey">@gmail.com</a>
+              <a href="mailto:kasbassnigenterprises@gmail.com" className="text-sm grey">@kasbassnigenterprises@gmail.com</a>
             </div>
           </div>
-          <div className="flex space-x-3 items-center">
+          <div className="hidden md:flex space-x-3 items-center">
             <span className="border border-blue-400 p-2">
                 <PhoneIcon className="h-6 w-6 text-blue-400" />
             </span>
-            <div className="flex flex-col justify-center items-center">
+            <div className="flex flex-col justify-center items-baseline">
                 <p className="font-bold">Call us on</p>
                 <a href="tel:+2348147603570" className="text-sm grey">(+234) 814 760 3570</a>
             </div>
@@ -69,8 +69,8 @@ const Navbar = () => {
         <li data-to-scrollspy-id="services"><NavLink className="link font-bold"  to="/result">SERVICES</NavLink></li>
         <li><NavLink className="link font-bold " to="/projects">PROJECTS</NavLink></li>  
         </ul>
-        <NavLink to="/message" className="hidden md:block hover:opacity-90 
-        active:bg-blue-700 bg-blue-500 px-3 py-6 font-bold">CONTACT US</NavLink>
+        <li className="hidden md:block hover:opacity-90 
+        active:bg-blue-700 bg-blue-500 px-5 py-6 font-bold">BLOG</li>
       </nav>
     </header>
   )

@@ -1,12 +1,19 @@
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { useForm, ValidationError } from '@formspree/react';
-import Redirect from '../components/Redirect';
+import { useNavigate } from 'react-router';
 
 const Message = () => {
     const [state, handleSubmit] = useForm('mlekdkoe');
+    const navigate = useNavigate();
+
     if (state.succeeded) {
-        return <Redirect />
+        navigate('/success');
+
+		setTimeout(() => {
+			navigate('/', { replace: true });
+		},5000)
+        
     }
     
     return (

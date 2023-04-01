@@ -1,9 +1,3 @@
-import work1 from '../logo/work1.jpeg'
-import work2 from '../logo/work2.jpeg'
-import work3 from '../logo/work3.jpeg'
-import work4 from '../logo/work4.jpeg'
-import work7 from '../logo/work7.jpeg'
-import work8 from '../logo/work8.jpeg'
 import { Images } from './overview'
 
 export const data = {
@@ -76,42 +70,67 @@ export const project = [
         id: 1,
         image: Images[0][0],
         overview: Images[0],
-        alt:'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-        title: 'Earthen Bottle'
+        alt:'Before and after images of an office renovation project showing old pipes being removed and replaced with new ones, and appliances being rearranged for improved efficiency and flow of traffic.',
+        title: 'Office Renovation',
+        status: 'Completed',
+        'description': 'The Office Renovation project was a comprehensive solution that transformed an outdated and inefficient office space into a modern and functional workspace. The project involved the removal of old pipes and the installation of new ones, as well as the rearrangement of appliances to create a more efficient and productive workspace.',
+        highlights: ['Removal of old pipes and installation of new ones', 'Rearrangement of appliances', 'Addition of new lighting fixtures', 'Fresh paint, and new flooring'],
+        detail: 'The Office Renovation project was successful in transforming the outdated office space into a more modern, efficient, and productive workspace with improvements to the plumbing system, appliance rearrangement, new lighting fixtures, fresh paint, and modern furniture. The client is happy with the results and has reported increased productivity and employee satisfaction.'
     },
     {   
         id: 2,
-        image: Images[1][3],
+        image: Images[1][4],
         overview: Images[1],
-        alt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
-        title: 'Nomad Tumbler'
+        title: 'Office Renovation',
+        alt: 'Before and after images of an office renovation project showing old pipes being removed and replaced with new ones, and appliances being rearranged for improved efficiency and flow of traffic.',
+        status: 'Completed',
+        'description': 'The Office Renovation project was a comprehensive solution that transformed an outdated and inefficient office space into a modern and functional workspace. The project involved the removal of old pipes and the installation of new ones, as well as the rearrangement of appliances to create a more efficient and productive workspace.',
+        highlights: ['Removal of old pipes and installation of new ones', 'Rearrangement of appliances', 'Addition of new lighting fixtures', 'Fresh paint, and new flooring'],
+        detail: 'The Office Renovation project was successful in transforming the outdated office space into a more modern, efficient, and productive workspace with improvements to the plumbing system, appliance rearrangement, new lighting fixtures, fresh paint, and modern furniture. The client is happy with the results and has reported increased productivity and employee satisfaction.'
     },
     {
         id: 3,
         image: Images[2][2],
         overview: Images[2],
-        alt: 'Person using a pen to cross a task off a productivity paper card.',
-        title: 'Focus Paper Refill'
+        title: 'Focus Paper Refill',
+        status: 'Progress',
+        alt: "An image showing an old appliance being removed and a new appliance being installed during a plumbing and sanitation project for a mini estate.",
+        description: 'The Remove Old Appliance with New One project aims to replace outdated or malfunctioning appliances with new and efficient ones. The project includes the removal of the old appliance and the installation of a new one in its place.',
+        highlights: ['Removal of Old Appliance', 'Installation of New Appliance', 'Testing and Inspection', 'Disposal of Old Appliance'],
+        detail: 'The Remove Old Appliance with New One project aims to improve the efficiency and functionality of appliances in a home or business. By replacing outdated or malfunctioning appliances, the project will contribute to energy conservation and reduce the risk of accidents or breakdowns. The project will be executed by a team of experienced technicians, who will ensure that the work is completed safely and efficiently.'
     },
     {
         id: 4,
         image: Images[3][0],
         overview: Images[3],
-        alt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-        title:' Machined Mechanical Pencil'
+        alt: "An image showing an old appliance being removed and a new appliance being installed during a plumbing and sanitation project for a mini estate.",
+        title: 'Mini Estate Plumbing and Sanitation',
+        status: 'Completed',
+        description: 'The Remove Old Appliance with New One project aims to replace outdated or malfunctioning appliances with new and efficient ones. The project includes the removal of the old appliance and the installation of a new one in its place.',
+        highlights: ['Removal of Old Appliance', 'Installation of New Appliance', 'Testing and Inspection', 'Disposal of Old Appliance'],
+        detail: 'The Remove Old Appliance with New One project aims to improve the efficiency and functionality of appliances in a home or business. By replacing outdated or malfunctioning appliances, the project will contribute to energy conservation and reduce the risk of accidents or breakdowns. The project will be executed by a team of experienced technicians, who will ensure that the work is completed safely and efficiently.'
     },
     {
         id: 5,
         image: Images[4][2],
         overview: Images[4],
-        alt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
-        title: 'Machined Mechanical Pencil'
+        alt: "A renovated bathroom with modern sanitary ware and plumbing fixtures. The project involved the removal of old and outdated sanitary ware and the installation of new and modern fixtures, as well as the renovation of the plumbing system. The project contributed to energy conservation, water efficiency, and reduced the risk of accidents or breakdowns, resulting in a modern and reliable plumbing system that meets the needs of the building's occupants.",
+        title: 'Building Renovation',
+        status: 'Completed',
+        description: 'The Completed Building Renovation, Sanitary Ware Replacement project involved the renovation and upgrade of the plumbing system in a building by replacing outdated and inefficient sanitary ware with new and modern fixtures. The project included the removal of old sanitary ware and the installation of new ones in their place.',
+        highlights: ['Inspection and Assessment', 'Removal of Old Sanitary Ware', 'Installation of New Sanitary Ware', 'Testing and Inspection', 'Renovation   of Plumbing System'],
+        detail: 'The Completed Building Renovation, Sanitary Ware Replacement project improved the functionality and aesthetics of the plumbing system in the building. By replacing outdated fixtures, the project contributed to energy conservation, water efficiency, and reduced the risk of accidents or breakdowns.'
+    
     },
     {
         id: 6,
         image: Images[5][1],
         overview: Images[5],
-        alt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
-        title: ' Machined Mechanical Pencil'
+        alt: "Newly installed plumbing system in building with internal pipes, fixtures, water treatment, and external water supply connection. Meeting building codes and regulations, completed within budget and on time, satisfying building owners.",
+        title: 'New Building Plumbing Project',
+        status: 'Completed',
+        description: "Installed complete plumbing system in a new building. Designed layout with building owners and architects. Installed internal pipes, fixtures, and water treatment system. Connected to external water supply. Thoroughly tested and inspected to meet building codes and regulations. Completed on time and within budget, satisfying building owners.",
+        highlights:['Design of the new plumbing system', 'Installation of the new plumbing system', 'Testing and Inspection'],
+        detail: 'The Completed Full New Building Plumbing Project provided the new building with a reliable plumbing system that meets the needs of its occupants. The project was executed by a team of experienced plumbers and contractors, who ensured that the work was completed safely, efficiently, and within the specified budget and timeframe.'
     }
 ]

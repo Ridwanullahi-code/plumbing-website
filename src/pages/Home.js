@@ -1,6 +1,5 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import Navbar from "../components/Navbar";
-import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Testimonial from "../components/Testimonial";
 import { service } from '../functions/pictures'
@@ -11,15 +10,13 @@ import Choose from '../components/Choose';
 import image from '../functions/bgImage';
 import Book from "../components/Book";
 import { NavLink } from "react-router-dom";
-import ScrollSpy from "react-ui-scrollspy";
-
 
 const Home = () => {
+  const [Image, setImage] = useState('')
 
   const changer = () => {
-    const section = document.querySelector('.bg-image');
     const bg = image[Math.floor(Math.random() * image.length)];
-    section.src = bg;
+    setImage(bg)
   }
 
   useEffect(() => {
@@ -29,7 +26,6 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <ScrollSpy>
         <div className="relative">
         <div className="relative">
           <div className="py-24 z-50 absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center text-white text-center">
@@ -37,16 +33,16 @@ const Home = () => {
             <p className="text-[20px] md:text-[26px] mb-3">Best plumbing and maintenance company in Nigeria</p>
             <div className="flex gap-5">
               <NavLink to="/message">
-                 <button className="p-3 font-bold px-8 border border-blue-500 bg-blue-500 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 active:border-blue-800 duration-100">Contact Us</button>
+                 <button className="p-3 font-bold px-8 border border-blue-500 bg-blue-500 rounded-md hover:bg-blue-700 hover:border-blue-700 active:bg-blue-800 active:border-blue-800 duration-100">CONTACT US</button>
               </NavLink>
               <NavLink>
-                <button className="p-3 font-bold px-8 border-2 border-white bg-blue-transparent rounded-md hover:bg-blue-800 hover:border-blue-800 active:bg-blue-900 active:border-blue-900 duration-100">Our Services</button>
+                <button className="p-3 font-bold px-8 border-2 border-white bg-blue-transparent rounded-md hover:bg-blue-800 hover:border-blue-800 active:bg-blue-900 active:border-blue-900 duration-100">OUR SERVICES</button>
               </NavLink>
             </div>
           </div>
           <img
             className="h-[620px] w-full bg-image"
-            src="https://images.unsplash.com/photo-1593424469977-77a35fed63c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+            src={Image && Image}
             alt="four white ceramic urinal sink"
           />
           <div className="absolute bg-[#0f2b5b99] top-0 left-0 right-0 bottom-0"/>
@@ -57,7 +53,7 @@ const Home = () => {
       </div>
       <div className="bg-white shadow md:mx-5 rounded-md py-8 my-5">
         <h2 className="text-blue-500 font-bold text-[30px] text-center">Plumbing Repairing Service</h2>
-        <p className="text-gray-500 max-w-lg mx-auto text-center py-2" style={{ fontSize: '14px' }}>
+        <p className="text-gray-500 max-w-lg mx-auto text-center py-2" style={{ fontSize: '16px' }}>
           If you need any help with your plumbing, give us a call at kasbass Plumbing. We offer variety of
           plumbing services in kasbass enterprises
         </p>
@@ -106,8 +102,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      </ScrollSpy>
-      <Footer />
+    <Footer />
     </>
   );
 };
